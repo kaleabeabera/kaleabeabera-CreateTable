@@ -1,1 +1,5 @@
-
+CREATE TABLE song (
+    id SERIAL PRIMARY KEY,
+    Title VARCHAR(100) NOT NULL,
+    Artist VARCHAR(100) NOT NULL
+);
